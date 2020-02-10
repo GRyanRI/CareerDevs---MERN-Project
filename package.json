@@ -9,8 +9,20 @@
     "dev": "webpack-dev-server --open"
   },
   "keywords": [],
-  "author": "",
+  "author": "Greg Ryan",
   "license": "ISC",
+  "dependencies": {
+    "history": "^4.7.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.5.0",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.16.2",
+    "uuid": "^3.4.0",
+    "webpack": "^4.17.2"
+  },
   "devDependencies": {
     "@babel/core": "^7.0.0",
     "@babel/node": "^7.0.0",
@@ -25,14 +37,7 @@
     "mongodb": "^3.1.10",
     "nodemon": "^1.18.4",
     "style-loader": "^0.23.0",
-    "webpack": "^4.41.5",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.7"
-  },
-  "dependencies": {
-    "react": "^16.4.2",
-    "react-dom": "^16.5.0",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0"
   }
 }
